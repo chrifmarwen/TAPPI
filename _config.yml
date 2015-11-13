@@ -1,0 +1,14 @@
+# Site settings
+title: TAPPI
+email: vtardy@brightfind.com
+description: > # Official site for TAPPI.org
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://tappi.org" # the base hostname & protocol for your site
+twitter_username: brightfind
+github_username:  vincetardy
+
+# Build settings
+markdown: kramdown
+
+# Exclude these directories
+exclude: [node_modules, 'package.json', 'gulpfile.js']

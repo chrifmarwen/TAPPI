@@ -1,0 +1,876 @@
+<!doctype html>
+<!--[if lte IE 8 ]>
+    <html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> 
+<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/ie.css" />
+<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <title>TAPPI</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/modernizr.js"></script>
+</head>
+<body>
+    <div class="main-wrapper container-fluid">
+        <div class="ad-area-2">
+            <img src="img/placeholders/728x90.png">
+        </div>
+        <header class="cd-main-header">
+    <div class="main-logo col-md-3">
+        <a href="#"><img src="img/tappi-logo.jpg" alt="Tappi Logo"></a>
+    </div>
+    <div class="signin-join-buttons col-md-3">
+        <button type="button" class="signin-button">Sign In</button>
+        <button type="button" class="join-button">Join</button>
+    </div>
+    <div class="search-nav col-md-6">
+        <ul class="utility-nav">
+            <li><a href="#">Stores</a></li>
+            <li><a href="#">Buyers Guide</a></li>
+            <li><a href="#">About TAPPI</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="search-ui">
+            <div class="input-group">
+                <input type="text" class="form-control search-box">
+                <span class="input-group-btn">
+                    <button type="button" class="search-button">Search</button></span>
+            </div>
+        </div>
+    </div>
+    <ul class="cd-header-buttons">
+        <li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
+    </ul>
+    <!-- cd-header-buttons-->
+    <div class="float-fix"></div>
+    <!--Start of Navigation Section -->
+<!-- 
+        Important class list for implemenation of Nav
+        1. cd-nav: wrapper class for nav area.
+        2. new-close-trigger: close button in mobile area 
+        3. has-children: Display children links under specfic areas
+        4. go-back: moves navigation back to first menu
+        5. is-hidden: hides links for sub navigation
+    -->
+<nav class="cd-nav">
+    <ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
+        <div class="new-close-trigger">
+            <a class="cd-nav-trigger-2" href="#cd-primary-nav">
+                <span class="cross-area"><img src="img/close-icon.png" ></span>Close</a>
+        </div>
+        <li class="has-children">
+            <a href="#">Topics</a>
+            <ul class="cd-secondary-nav is-hidden single-menu">
+                <li class="go-back"><a href="#0">Main Menu</a></li>
+                <li class="has-children">
+                    <a href="#">Menu 1</a>
+                    <ul class="is-hidden">
+                        <li class="go-back"><a href="#0">Back </a></li>
+                        <li class="has-children">
+                            <a href="#0">Sub Menu 1</a>
+                            <ul class="is-hidden">
+                                <li class="go-back"><a href="#0">Back</a></li>
+                                <li><a href="#">Sub Sub Menu 1</a></li>
+                                <li><a href="#">Sub Sub Menu 2</a></li>
+                                <li><a href="#">Sub Sub Menu 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#0">Sub Menu 2</a>
+                            <ul class="is-hidden">
+                                <li class="go-back"><a href="#0">Back</a></li>
+                                <li><a href="#">Sub Sub Menu 1</a></li>
+                                <li><a href="#">Sub Sub Menu 2</a></li>
+                                <li class="has-children"><a href="#">Sub Sub Menu 3</a>
+                                <ul class="is-hidden">
+                                    <li class="go-back"><a href="#0">Back</a></li>
+                                    <li><a href="#">Sub Sub Sub Menu 1</a></li>
+                                    <li><a href="#">Sub Sub Sub Menu 2</a></li>
+                                    <li><a href="#">Sub Sub Sub Menu 3</a></li>
+                                </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#0">Sub Menu 4</a></li>
+                        <li><a href="#0">Sub Menu 5</a></li>
+                        <li><a href="#0">Sub Menu 6</a></li>
+                        <li><a href="#0">Sub Menu 7</a></li>
+                        <li><a href="#0">Sub Menu 8</a></li>
+                        <li><a href="#0">Sub Menu 9</a></li>
+                        <li><a href="#0">Sub Menu 10</a></li>
+                        <li><a href="#0">Sub Menu 11</a></li>
+                        <li><a href="#0">Sub Menu 12</a></li>
+                        <li><a href="#0">Sub Menu 13</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="has-children">
+            <a href="#">Education</a>
+            <ul class="cd-secondary-nav is-hidden">
+                <li class="go-back"><a href="#0">Main Menu</a></li>
+                <li class="has-children">
+                    <a href="#">Main 1</a>
+                    <ul class="is-hidden">
+                        <li class="go-back"><a href="#0">Back</a></li>
+                        <li class="has-children">
+                            <a href="#0">Sub Nav 1</a>
+                            <ul class="is-hidden">
+                                <li class="go-back"><a href="#0">Back</a></li>
+                                <li class="has-children"><a href="#">Sub Nav 2</a>
+                                <ul class="is-hidden">
+                                    <li class="go-back"><a href="#0">Back</a></li>
+                                    <li class="has-children"><a href="#">Sub Sub Sub Menu 1</a>
+                                    <ul class="is-hidden">
+                                    <li class="go-back"><a href="#0">Back</a></li>
+                                    <li class="has-children"><a href="#">Sub Sub Sub Sub Menu 1</a>
+                                        <ul class="is-hidden">
+                                        <li class="go-back"><a href="#0">Back</a></li>
+                                        <li><a href="#">Sub Sub Sub Sub Sub Menu 1</a></li>
+                                        <li><a href="#">Sub Sub Sub Sub Sub Menu 2</a></li>
+                                        <li><a href="#">Sub Sub Sub Sub Sub Menu 3</a></li>
+                                    </ul>
+                                    </li>
+                                    <li><a href="#">Sub Sub Menu 2</a></li>
+                                    <li><a href="#">Sub Sub Menu 3</a></li>
+                                </ul>
+                                    </li>
+                                    <li><a href="#">Sub Sub Menu 2</a></li>
+                                    <li><a href="#">Sub Sub Menu 3</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">Sub Nav 3</a></li>
+                                <li><a href="#">Sub Nav 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#0">Sub Nav 2</a>
+                            <ul class="is-hidden">
+                                <li class="go-back"><a href="#0">Back</a></li>
+                                <li><a href="#">Sub Nav 1</a></li>
+                                <li><a href="#">Sub Nav 2</a></li>
+                                <li><a href="#">Hats</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Sub Nav 3</a></li>
+                        <li><a href="#">Sub Nav 4</a></li>
+                    </ul>
+                </li>
+                <li class="has-children">
+                    <a href="#">Main 2</a>
+                    <ul class="is-hidden">
+                        <li class="go-back"><a href="#0">Back</a></li>
+                        <li class="has-children">
+                            <a href="#0">Sub Nav 1</a>
+                            <ul class="is-hidden">
+                                <li class="go-back"><a href="#0">Back</a></li>
+                                <li><a href="#">Sub Nav 2</a></li>
+                                <li><a href="#">Sub Nav 3</a></li>
+                                <li><a href="#">Sub Nav 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#0">Sub Nav 2</a>
+                            <ul class="is-hidden">
+                                <li class="go-back"><a href="#0">Back</a></li>
+                                <li><a href="#">Sub Nav 1</a></li>
+                                <li><a href="#">Sub Nav 2</a></li>
+                                <li><a href="#">Hats</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Sub Nav 3</a></li>
+                        <li><a href="#">Sub Nav 4</a></li>
+                    </ul>
+                </li>
+                <li class="has-children">
+                    <a href="#">Main 3</a>
+                    <ul class="is-hidden">
+                        <li class="go-back"><a href="#0">Back</a></li>
+                        <li class="has-children">
+                            <a href="#0">Sub Nav 1</a>
+                            <ul class="is-hidden">
+                                <li class="go-back"><a href="#0">Back</a></li>
+                                <li><a href="#">Sub Nav 2</a></li>
+                                <li><a href="#">Sub Nav 3</a></li>
+                                <li><a href="#">Sub Nav 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#0">Sub Nav 2</a>
+                            <ul class="is-hidden">
+                                <li class="go-back"><a href="#0">Back</a></li>
+                                <li><a href="#">Sub Nav 1</a></li>
+                                <li><a href="#">Sub Nav 2</a></li>
+                                <li><a href="#">Hats</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Sub Nav 3</a></li>
+                        <li><a href="#">Sub Nav 4</a></li>
+                    </ul>
+                </li>
+                <div class="ad-area">
+                    <img src="img/placeholders/728x90.png" alt="">
+                </div>
+            </ul>
+        </li>
+        <li class="has-children">
+            <a href="#">Events</a>
+            <ul class="cd-secondary-nav is-hidden">
+                <li class="go-back"><a href="#0">Main Menu</a></li>
+                <li class="has-children image-area">
+                    <a href="">Featured Links</a>
+                    <ul>
+                        <li class="go-back"><a href="#0">Back</a></li>
+                        <li class="first-area">
+                            <a href=""><img src="img/trees.jpg" alt="trees"></a>
+                            <p>Place Image Text Here</p>
+                        </li>
+                        <li class="second-area">
+                            <a href=""><img src="img/portarite.jpg" alt="trees"></a>
+                            <p>Place Image Text Here</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="has-children">
+                    <a href="#">Main 1</a>
+                    <ul class="is-hidden">
+                        <li class="go-back"><a href="#0">Back</a></li>
+                        <li class="has-children">
+                            <a href="#0">Sub Nav 1</a>
+                            <ul class="is-hidden">
+                                <li class="go-back"><a href="#0">Back</a></li>
+                                <li><a href="#">Sub Nav 2</a></li>
+                                <li><a href="#">Sub Nav 3</a></li>
+                                <li><a href="#">Sub Nav 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#0">Sub Nav 2</a>
+                            <ul class="is-hidden">
+                                <li class="go-back"><a href="#0">Back</a></li>
+                                <li><a href="#">Sub Nav 2</a></li>
+                                <li><a href="#">Sub Nav 3</a></li>
+                                <li><a href="#">Sub Nav 4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Sub Nav 3</a></li>
+                        <li><a href="#">Sub Nav 4</a></li>
+                    </ul>
+                </li>
+                <div class="ad-area">
+                    <img src="img/placeholders/728x90.png" alt="">
+                </div>
+            </ul>
+        </li>
+        <li class="has-children">
+            <a href="#">Publications & Standards</a>
+            <ul class="cd-secondary-nav is-hidden">
+                <li class="go-back"><a href="#0">Main Menu</a></li>
+                <li class="has-children image-area">
+                    <a href="">Featured Links</a>
+                    <ul>
+                        <li class="go-back"><a href="#0">Back</a></li>
+                        <li class="first-area">
+                            <a href=""><img src="img/trees.jpg" alt="trees"></a>
+                            <p>Place Image Text Here</p>
+                        </li>
+                        <li class="second-area">
+                            <a href=""><img src="img/portarite.jpg" alt="trees"></a>
+                            <p>Place Image Text Here</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="has-children">
+                    <a href="#">Main 1</a>
+                    <ul class="is-hidden">
+                        <li class="go-back"><a href="#0">Back</a></li>
+                        <li class="has-children">
+                            <a href="#0">Sub Nav 1</a>
+                            <ul class="is-hidden">
+                                <li class="go-back"><a href="#0">Back</a></li>
+                                <li><a href="#">Sub Nav 2</a></li>
+                                <li><a href="#">Sub Nav 3</a></li>
+                                <li><a href="#">Sub Nav 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#0">Sub Nav 2</a>
+                            <ul class="is-hidden">
+                                <li class="go-back"><a href="#0">Back</a></li>
+                                <li><a href="#">Sub Nav 4</a></li>
+                                <li><a href="#">Sub Nav 4</a></li>
+                                <li><a href="#">Sub Nav 4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Sub Nav 3</a></li>
+                        <li><a href="#">Sub Nav 4</a></li>
+                    </ul>
+                </li>
+                <div class="ad-area">
+                    <img src="img/placeholders/728x90.png" alt="">
+                </div>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Get Involved</a>
+        </li>
+        <li><a href="#">Members</a></li>
+        <li><a href="#">News</a></li>
+    </ul>
+    <!-- primary-nav -->
+</nav>
+<!--End of Navigation Section -->
+
+</header>
+
+        <div class="cd-main-content">
+            <div class="slim-header-area">
+        <div class="bread-crumb">
+            <ul>
+                <li><a href="#" alt="">Breadcrumb<i class="fa fa-caret-right fa-lg"></i></a></li>
+                <li><a href="#" alt="">Breadcrumb<i class="fa fa-caret-right fa-lg"></i></a></li>
+                <li><a href="#" alt="">Breadcrumb</a></li>
+            </ul>
+        </div>
+        <h2><img src="img/topic-icon.png" alt="" draggable="false">Topic</h2>
+    </div>
+
+            <main class="calander-area">
+    <div class="calander-content col-md-9">
+        <section class="featured-event-area">
+            <!-- BEGIN CARD -->
+            <div class="col-md-4">
+                <div class="row feature-card">
+                    <div class="calander-title-date">
+                        <div class="calander-date">
+                            <ul>
+                                <li class="date"><span>15</span>
+                                </li>
+                                <li class="month"><span>Jan</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="calander-title">
+                            <h4>Featured Event Name</h4>
+                            <h5>4/18/2015 - 5/20/2015</h5>
+                        </div>
+                        <div class="float-fix"></div>
+                    </div>
+                    <div class="float-fix"></div>
+                    <!-- /card-image -->
+                    <div class="card-content">
+                        <p>Quattrocento Sans Regular is the font being used. Etiam habebis sem dicantur magna mollis euismod. Etiam habebis sem dicantur magna. <a href="">See More</a>
+                        </p>
+                        <button type="button" class="signin-button">CTA: Register</button>
+                    </div>
+                </div>
+            </div>
+            <!-- END CARD -->
+            <!-- BEGIN CARD -->
+            <div class="col-md-4">
+                <div class="row feature-card">
+                    <div class="calander-title-date">
+                        <div class="calander-date">
+                            <ul>
+                                <li class="date"><span>21</span>
+                                </li>
+                                <li class="month"><span>Feb</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="calander-title">
+                            <h4>Featured Event Name</h4>
+                            <h5>4/18/2015 - 5/20/2015</h5>
+                        </div>
+                        <div class="float-fix"></div>
+                    </div>
+                    <div class="float-fix"></div>
+                    <!-- /card-image -->
+                    <div class="card-content">
+                        <p>Quattrocento Sans Regular is the font being used. Etiam habebis sem dicantur magna mollis euismod. Etiam habebis sem dicantur magna. <a href="">See More</a>
+                        </p>
+                        <button type="button" class="signin-button">CTA: Register</button>
+                    </div>
+                </div>
+            </div>
+            <!-- END CARD -->
+            <!-- BEGIN CARD -->
+            <div class="col-md-4">
+                <div class="row feature-card">
+                    <div class="calander-title-date">
+                        <div class="calander-date">
+                            <ul>
+                                <li class="date"><span>7</span>
+                                </li>
+                                <li class="month"><span>May</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="calander-title">
+                            <h4>Featured Event Name</h4>
+                            <h5>4/18/2015 - 5/20/2015</h5>
+                        </div>
+                        <div class="float-fix"></div>
+                    </div>
+                    <div class="float-fix"></div>
+                    <!-- /card-image -->
+                    <div class="card-content">
+                        <p>Quattrocento Sans Regular is the font being used. Etiam habebis sem dicantur magna mollis euismod. Etiam habebis sem dicantur magna. <a href="">See More</a>
+                        </p>
+                        <button type="button" class="signin-button">CTA: Register</button>
+                    </div>
+                </div>
+            </div>
+            <!-- END CARD -->
+            <div class="float-fix"></div>
+        </section>
+        <section class="event-area">
+            <div class="filter-area">
+                <ul class="taxonomy-term">
+                    <li class="title">
+                        <h4>Filter By</h4></li>
+                    <li><a href="#">Term 1</a></li>
+                    <li><a href="#">Term 2</a></li>
+                    <li><a href="#">Term 3</a></li>
+                    <li><a href="#">Term 4</a></li>
+                    <li class="button-clear-area">
+                        <button type="button" class="join-button">Clear All</button>
+                    </li>
+                </ul>
+                <ul class="filter-area-content">
+                    <li>
+                        <div class="dropdown">
+                            <a class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Topic
+                                        <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Option 1</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Option 2</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Sector
+                                        <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Option 1</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Option 2</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Date Range
+                                        <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Option 1</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Option 2</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Event Type
+                                        <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Option 1</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Option 2</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Event Status
+                                        <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Option 1</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Option 2</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Start of Card -->
+            <div class="event-card col-md-12">
+                <div class="date col-md-3">Monday 10/07 to Tuesday 10/8</div>
+                <div class="event-description col-md-6">
+                    <div class="event-content">
+                        <div class="topic-name">
+                            <h5><img src="img/file-icon-green.png" alt="">Topic Name Placeholder</h5>
+                        </div>
+                        <div class="event-type">
+                            <h5><img src="img/file-icon-green.png" alt="">Event Type</h5>
+                        </div>
+                        <div class="float-fix"></div>
+                        <h4 class="event-name-title">Event Name-<span>Location, status</span></h4>
+                        <p>Quattrocento Sans Regular is the font being used. Etiam habebis sem dicantur magna mollis euismod. Etiam habebis sem dicantur magna mollis euismod. Paullum deliquit, ponderibus modulisque suis ratio utitur.</p>
+                    </div>
+                </div>
+                <div class="event-buttons  col-md-3">
+                    <ul>
+                        <li>
+                            <button type="button" class="event-button">Add Event</button>
+                        </li>
+                        <li>
+                            <button type="button" class="event-button">Cancel</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End of Card -->
+            <!-- Start of Card -->
+            <div class="event-card col-md-12">
+                <div class="date col-md-3">Monday 10/07 to Tuesday 10/8</div>
+                <div class="event-description col-md-6">
+                    <div class="event-content">
+                        <div class="topic-name">
+                            <h5><img src="img/file-icon-green.png" alt="">Topic Name Placeholder</h5>
+                        </div>
+                        <div class="event-type">
+                            <h5><img src="img/file-icon-green.png" alt="">Event Type</h5>
+                        </div>
+                        <div class="float-fix"></div>
+                        <h4 class="event-name-title">Event Name-<span>Location, status</span></h4>
+                        <p>Quattrocento Sans Regular is the font being used. Etiam habebis sem dicantur magna mollis euismod. Etiam habebis sem dicantur magna mollis euismod. Paullum deliquit, ponderibus modulisque suis ratio utitur.</p>
+                    </div>
+                </div>
+                <div class="event-buttons  col-md-3">
+                    <ul>
+                        <li>
+                            <button type="button" class="event-button">Add Event</button>
+                        </li>
+                        <li>
+                            <button type="button" class="event-button">Cancel</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End of Card -->
+            <!-- Start of Card -->
+            <div class="event-card col-md-12">
+                <div class="date col-md-3">Monday 10/07 to Tuesday 10/8</div>
+                <div class="event-description col-md-6">
+                    <div class="event-content">
+                        <div class="topic-name">
+                            <h5><img src="img/file-icon-green.png" alt="">Topic Name Placeholder</h5>
+                        </div>
+                        <div class="event-type">
+                            <h5><img src="img/file-icon-green.png" alt="">Event Type</h5>
+                        </div>
+                        <div class="float-fix"></div>
+                        <h4 class="event-name-title">Event Name-<span>Location, status</span></h4>
+                        <p>Quattrocento Sans Regular is the font being used. Etiam habebis sem dicantur magna mollis euismod. Etiam habebis sem dicantur magna mollis euismod. Paullum deliquit, ponderibus modulisque suis ratio utitur.</p>
+                    </div>
+                </div>
+                <div class="event-buttons  col-md-3">
+                    <ul>
+                        <li>
+                            <button type="button" class="event-button">Add Event</button>
+                        </li>
+                        <li>
+                            <button type="button" class="event-button">Cancel</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End of Card -->
+            <!-- Start of Card -->
+            <div class="event-card col-md-12">
+                <div class="date col-md-3">Monday 10/07 to Tuesday 10/8</div>
+                <div class="event-description col-md-6">
+                    <div class="event-content">
+                        <div class="topic-name">
+                            <h5><img src="img/file-icon-green.png" alt="">Topic Name Placeholder</h5>
+                        </div>
+                        <div class="event-type">
+                            <h5><img src="img/file-icon-green.png" alt="">Event Type</h5>
+                        </div>
+                        <div class="float-fix"></div>
+                        <h4 class="event-name-title">Event Name-<span>Location, status</span></h4>
+                        <p>Quattrocento Sans Regular is the font being used. Etiam habebis sem dicantur magna mollis euismod. Etiam habebis sem dicantur magna mollis euismod. Paullum deliquit, ponderibus modulisque suis ratio utitur.</p>
+                    </div>
+                </div>
+                <div class="event-buttons  col-md-3">
+                    <ul>
+                        <li>
+                            <button type="button" class="event-button">Add Event</button>
+                        </li>
+                        <li>
+                            <button type="button" class="event-button">Cancel</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End of Card -->
+            <!-- Start of Card -->
+            <div class="event-card col-md-12">
+                <div class="date col-md-3">Monday 10/07 to Tuesday 10/8</div>
+                <div class="event-description col-md-6">
+                    <div class="event-content">
+                        <div class="topic-name">
+                            <h5><img src="img/file-icon-green.png" alt="">Topic Name Placeholder</h5>
+                        </div>
+                        <div class="event-type">
+                            <h5><img src="img/file-icon-green.png" alt="">Event Type</h5>
+                        </div>
+                        <div class="float-fix"></div>
+                        <h4 class="event-name-title">Event Name-<span>Location, status</span></h4>
+                        <p>Quattrocento Sans Regular is the font being used. Etiam habebis sem dicantur magna mollis euismod. Etiam habebis sem dicantur magna mollis euismod. Paullum deliquit, ponderibus modulisque suis ratio utitur.</p>
+                    </div>
+                </div>
+                <div class="event-buttons  col-md-3">
+                    <ul>
+                        <li>
+                            <button type="button" class="event-button">Add Event</button>
+                        </li>
+                        <li>
+                            <button type="button" class="event-button">Cancel</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End of Card -->
+            <!-- Start of Card -->
+            <div class="event-card col-md-12">
+                <div class="date col-md-3">Monday 10/07 to Tuesday 10/8</div>
+                <div class="event-description col-md-6">
+                    <div class="event-content">
+                        <div class="topic-name">
+                            <h5><img src="img/file-icon-green.png" alt="">Topic Name Placeholder</h5>
+                        </div>
+                        <div class="event-type">
+                            <h5><img src="img/file-icon-green.png" alt="">Event Type</h5>
+                        </div>
+                        <div class="float-fix"></div>
+                        <h4 class="event-name-title">Event Name-<span>Location, status</span></h4>
+                        <p>Quattrocento Sans Regular is the font being used. Etiam habebis sem dicantur magna mollis euismod. Etiam habebis sem dicantur magna mollis euismod. Paullum deliquit, ponderibus modulisque suis ratio utitur.</p>
+                    </div>
+                </div>
+                <div class="event-buttons  col-md-3">
+                    <ul>
+                        <li>
+                            <button type="button" class="event-button">Add Event</button>
+                        </li>
+                        <li>
+                            <button type="button" class="event-button">Cancel</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End of Card -->
+            <!-- Start of Card -->
+            <div class="event-card col-md-12">
+                <div class="date col-md-3">Monday 10/07 to Tuesday 10/8</div>
+                <div class="event-description col-md-6">
+                    <div class="event-content">
+                        <div class="topic-name">
+                            <h5><img src="img/file-icon-green.png" alt="">Topic Name Placeholder</h5>
+                        </div>
+                        <div class="event-type">
+                            <h5><img src="img/file-icon-green.png" alt="">Event Type</h5>
+                        </div>
+                        <div class="float-fix"></div>
+                        <h4 class="event-name-title">Event Name-<span>Location, status</span></h4>
+                        <p>Quattrocento Sans Regular is the font being used. Etiam habebis sem dicantur magna mollis euismod. Etiam habebis sem dicantur magna mollis euismod. Paullum deliquit, ponderibus modulisque suis ratio utitur.</p>
+                    </div>
+                </div>
+                <div class="event-buttons  col-md-3">
+                    <ul>
+                        <li>
+                            <button type="button" class="event-button">Add Event</button>
+                        </li>
+                        <li>
+                            <button type="button" class="event-button">Cancel</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="pagination event-pagination">
+                <li class="page-number">Page 1 of 5</li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+            </ul>
+            <div class="float-fix"></div>
+        </section>
+        <section class="detail-card-area">
+            <!-- BEGIN CARD -->
+            <div class="col-md-4">
+                <!-- BEGIN CARD -->
+                <div class="row card card-type-blue">
+                    <div class="card-image">
+                        <img src="img/glasses-desk.jpg" alt="" />
+                    </div>
+                    <!-- /card-image -->
+                    <div class="card-content">
+                        <h3>Main Title</h3>
+                        <h4>March 18, 2015</h4>
+                        <p>Quattrocento Sans Regular is the font being used. Etiam habebis sem dicantur magna mollis euismod. Etiam habebis sem dicantur magna mollis euismod. Paullum deliquit, ponderibus modulisque suis ratio utitur.</p>
+                        <button type="button" class="call-to-action">Call to Action</button>
+                    </div>
+                </div>
+            </div>
+            <!-- END CARD -->
+            <!-- BEGIN CARD -->
+            <div class="col-md-4">
+                <!-- BEGIN CARD -->
+                <div class="row card card-type-coffee">
+                    <div class="card-image">
+                        <!-- /icon -->
+                        <img src="img/glasses-desk.jpg" alt="" />
+                    </div>
+                    <!-- /card-image -->
+                    <div class="card-content">
+                        <h3>Main Title</h3>
+                        <h4>March 25, 2015</h4>
+                        <p>Quattrocento Sans Regular is the font being used. Etiam habebis sem dicantur magna mollis euismod. Etiam habebis sem dicantur magna mollis euismod. Paullum deliquit, ponderibus modulisque suis ratio utitur.</p>
+                        <button type="button" class="call-to-action">Call to Action</button>
+                    </div>
+                </div>
+            </div>
+            <!-- END CARD -->
+            <!-- BEGIN CARD -->
+            <div class="col-md-4">
+                <div class="row card card-type-light-green">
+                    <div class="card-image">
+                        <!-- /icon -->
+                        <img src="img/glasses-desk.jpg" alt="" />
+                    </div>
+                    <!-- /card-image -->
+                    <div class="card-content">
+                        <h3>Main Title</h3>
+                        <h4>Dec 9, 2015</h4>
+                        <p>Quattrocento Sans Regular is the font being used. Etiam habebis sem dicantur magna mollis euismod. Etiam habebis sem dicantur magna mollis euismod. Paullum deliquit, ponderibus modulisque suis ratio utitur.</p>
+                        <button type="button" class="call-to-action">Call to Action</button>
+                    </div>
+                    <!-- /card-content -->
+                </div>
+                <!-- END CARD -->
+            </div>
+            <!-- END CARD -->
+            <div class="float-fix"></div>
+        </section>
+    </div>
+    <div class="ad-space col-md-3">
+        <section class="ad-space">
+            <div class="ad-area-4">
+                <img src="http://placehold.it/180x600">
+            </div>
+            <div class="ad-area-4">
+                <img src="http://placehold.it/180x600">
+            </div>
+        </section>
+    </div>
+    <div class="float-fix"></div>
+</main>
+<div class="ad-area-2">
+    <img src="img/placeholders/728x90.png">
+</div>
+<div class="ad-area-3 bottom">
+    <img src="img/placeholders/468x60.png">
+</div>
+
+        </div>
+        <!--End of container div for smooth slide animation-->
+        <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <span class="small-logo">
+        <a href="#"><img src="img/tappi-small-white.png" alt="Tappi Logo"></a>
+        </span>
+            </div>
+            <div class="col-md-3">
+                <h4>Topics List</h4>
+                <ul>
+                    <li><a href="#">Footer Link 1</a></li>
+                    <li><a href="#">Footer Link 2</a></li>
+                    <li><a href="#">Footer Link 3</a></li>
+                    <li><a href="#">Footer Link 4</a></li>
+                    <li><a href="#">Footer Link 5</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>Other TAPPI Sites</h4>
+                <ul>
+                    <li><a href="#">Footer Link 1</a></li>
+                    <li><a href="#">Footer Link 2</a></li>
+                    <li><a href="#">Footer Link 3</a></li>
+                    <li><a href="#">Footer Link 4</a></li>
+                    <li><a href="#">Footer Link 5</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>Get In Touch</h4>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fa fa-2x fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a></li>
+                    <li><a href="#"><i class="fa fa-2x fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-2x fa-rss"></i></a></li>
+                </ul>
+                <ul class="address">
+                    <li>15 Technology Parkway South, <br />Suite 115</li>
+                    <li>Peachtree Corners, GA 30092</li>
+                    <li>(770) 446-1400</li>
+                </ul>
+            </div>
+        </div>
+        <!-- /row -->
+    </div>
+</footer>
+
+        <div class="container-fluid bottom-nav">
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <li><a href="#">About TAPPI</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Antitrust Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- <script>
+window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')
+</script> -->
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.tabify.js"></script>
+<script src="js/main.js"></script>
+<!-- INSTANTIATE TABIFY -->
+<script type="text/javascript">
+// <![CDATA[
+$(document).ready(function() {
+    $('#tab-menu-1').tabify();
+});
+// ]]>
+</script>
+<script>
+$(document).ready(function() {
+    $('.bxslider').bxSlider({
+        adaptiveHeight: false,
+        pagerCustom: '#bx-pager',
+        mode: 'fade'
+    });
+});
+</script>
+
+</body>
+
+</html>
+

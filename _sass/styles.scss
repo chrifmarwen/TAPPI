@@ -1,0 +1,23 @@
+// VARIABLES AND MIXINS
+@import "modules/_variables";
+@import "modules/_mixins";
+// BOOTSTRAP
+@import "partials/_bootstrap";
+// FLEXSLIDER
+@import "partials/_flexslider";
+// ANIMATE
+@import "partials/_animate";
+// NAVIGATION
+@import "partials/_navigation";
+// CUSTOM STYLES
+@import "partials/_main";
+// RESPONSIVE STYLES
+@import "partials/_respons-layout";
+// DESIGN UPDATES (VT)
+@import "partials/_design-updates";
+// DESIGN UPDATES (jB)
+@import "partials/_jB";
+//BX Slider
+@import "partials/jquery.bxslider";
+// FINAL DESIGN REFINEMENTS (VT)
+@import "partials/final-design-refinements.scss";
