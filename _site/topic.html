@@ -47,15 +47,20 @@
         </div>
     </div>
     <ul class="cd-header-buttons">
-        <li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
+        <li>
+            <a class="cd-nav-trigger3" style="" href="#cd-primary-nav">
+                <span style="
+
+" class="fa fa-bars"></span></a>
+        </li>
     </ul>
     <!-- cd-header-buttons-->
     <div class="float-fix"></div>
     <!--Start of Navigation Section -->
-<!-- 
+<!--
         Important class list for implemenation of Nav
         1. cd-nav: wrapper class for nav area.
-        2. new-close-trigger: close button in mobile area 
+        2. new-close-trigger: close button in mobile area
         3. has-children: Display children links under specfic areas
         4. go-back: moves navigation back to first menu
         5. is-hidden: hides links for sub navigation
@@ -67,15 +72,18 @@
                 <span class="cross-area"><img src="img/close-icon.png" ></span>Close</a>
         </div>
         <li class="has-children">
+            <a class="submenu-trigger visible-xs visible-sm" href="#"><i class="fa fa-angle-right"></i></a>
             <a href="#">Topics</a>
             <ul class="cd-secondary-nav is-hidden single-menu">
                 <li class="go-back"><a href="#0">Main Menu</a></li>
                 <li class="has-children">
+                    <a class="submenu-trigger visible-xs visible-sm" href="#"><i class="fa fa-angle-right"></i></a>
                     <a href="#">Menu 1</a>
                     <ul class="is-hidden">
                         <li class="go-back"><a href="#0">Back </a></li>
                         <li class="has-children">
                             <a href="#0">Sub Menu 1</a>
+                            <a class="submenu-trigger " href="#"><i class="fa fa-angle-right"></i></a>
                             <ul class="is-hidden">
                                 <li class="go-back"><a href="#0">Back</a></li>
                                 <li><a href="#">Sub Sub Menu 1</a></li>
@@ -85,17 +93,19 @@
                         </li>
                         <li class="has-children">
                             <a href="#0">Sub Menu 2</a>
+                            <a class="submenu-trigger " href="#"><i class="fa fa-angle-right"></i></a>
                             <ul class="is-hidden">
                                 <li class="go-back"><a href="#0">Back</a></li>
                                 <li><a href="#">Sub Sub Menu 1</a></li>
                                 <li><a href="#">Sub Sub Menu 2</a></li>
                                 <li class="has-children"><a href="#">Sub Sub Menu 3</a>
-                                <ul class="is-hidden">
-                                    <li class="go-back"><a href="#0">Back</a></li>
-                                    <li><a href="#">Sub Sub Sub Menu 1</a></li>
-                                    <li><a href="#">Sub Sub Sub Menu 2</a></li>
-                                    <li><a href="#">Sub Sub Sub Menu 3</a></li>
-                                </ul>
+                                    <a class="submenu-trigger " href="#"><i class="fa fa-angle-right"></i></a>
+                                    <ul class="is-hidden">
+                                        <li class="go-back"><a href="#0">Back</a></li>
+                                        <li><a href="#">Sub Sub Sub Menu 1</a></li>
+                                        <li><a href="#">Sub Sub Sub Menu 2</a></li>
+                                        <li><a href="#">Sub Sub Sub Menu 3</a></li>
+                                    </ul>
                                 </li>
                             </ul>
                         </li>
@@ -114,6 +124,7 @@
             </ul>
         </li>
         <li class="has-children">
+            <a class="submenu-trigger visible-xs visible-sm" href="#"><i class="fa fa-angle-right"></i></a>
             <a href="#">Education</a>
             <ul class="cd-secondary-nav is-hidden">
                 <li class="go-back"><a href="#0">Main Menu</a></li>
@@ -123,29 +134,33 @@
                         <li class="go-back"><a href="#0">Back</a></li>
                         <li class="has-children">
                             <a href="#0">Sub Nav 1</a>
+                            <a class="submenu-trigger " href="#"><i class="fa fa-angle-right"></i></a>
                             <ul class="is-hidden">
                                 <li class="go-back"><a href="#0">Back</a></li>
                                 <li class="has-children"><a href="#">Sub Nav 2</a>
-                                <ul class="is-hidden">
-                                    <li class="go-back"><a href="#0">Back</a></li>
-                                    <li class="has-children"><a href="#">Sub Sub Sub Menu 1</a>
+                                    <a class="submenu-trigger " href="#"><i class="fa fa-angle-right"></i></a>
                                     <ul class="is-hidden">
-                                    <li class="go-back"><a href="#0">Back</a></li>
-                                    <li class="has-children"><a href="#">Sub Sub Sub Sub Menu 1</a>
-                                        <ul class="is-hidden">
                                         <li class="go-back"><a href="#0">Back</a></li>
-                                        <li><a href="#">Sub Sub Sub Sub Sub Menu 1</a></li>
-                                        <li><a href="#">Sub Sub Sub Sub Sub Menu 2</a></li>
-                                        <li><a href="#">Sub Sub Sub Sub Sub Menu 3</a></li>
+                                        <li class="has-children"><a href="#">Sub Sub Sub Menu 1</a>
+                                            <a class="submenu-trigger " href="#"><i class="fa fa-angle-right"></i></a>
+                                            <ul class="is-hidden">
+                                                <li class="go-back"><a href="#0">Back</a></li>
+                                                <li class="has-children"><a href="#">Sub Sub Sub Sub Menu 1</a>
+                                                    <a class="submenu-trigger " href="#"><i class="fa fa-angle-right"></i></a>
+                                                    <ul class="is-hidden">
+                                                        <li class="go-back"><a href="#0">Back</a></li>
+                                                        <li><a href="#">Sub Sub Sub Sub Sub Menu 1</a></li>
+                                                        <li><a href="#">Sub Sub Sub Sub Sub Menu 2</a></li>
+                                                        <li><a href="#">Sub Sub Sub Sub Sub Menu 3</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Sub Sub Menu 2</a></li>
+                                                <li><a href="#">Sub Sub Menu 3</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Sub Sub Menu 2</a></li>
+                                        <li><a href="#">Sub Sub Menu 3</a></li>
                                     </ul>
-                                    </li>
-                                    <li><a href="#">Sub Sub Menu 2</a></li>
-                                    <li><a href="#">Sub Sub Menu 3</a></li>
-                                </ul>
-                                    </li>
-                                    <li><a href="#">Sub Sub Menu 2</a></li>
-                                    <li><a href="#">Sub Sub Menu 3</a></li>
-                                </ul>
                                 </li>
                                 <li><a href="#">Sub Nav 3</a></li>
                                 <li><a href="#">Sub Nav 4</a></li>
@@ -153,6 +168,7 @@
                         </li>
                         <li class="has-children">
                             <a href="#0">Sub Nav 2</a>
+                            <a class="submenu-trigger " href="#"><i class="fa fa-angle-right"></i></a>
                             <ul class="is-hidden">
                                 <li class="go-back"><a href="#0">Back</a></li>
                                 <li><a href="#">Sub Nav 1</a></li>
@@ -170,6 +186,7 @@
                         <li class="go-back"><a href="#0">Back</a></li>
                         <li class="has-children">
                             <a href="#0">Sub Nav 1</a>
+                            <a class="submenu-trigger " href="#"><i class="fa fa-angle-right"></i></a>
                             <ul class="is-hidden">
                                 <li class="go-back"><a href="#0">Back</a></li>
                                 <li><a href="#">Sub Nav 2</a></li>
@@ -179,6 +196,7 @@
                         </li>
                         <li class="has-children">
                             <a href="#0">Sub Nav 2</a>
+                            <a class="submenu-trigger " href="#"><i class="fa fa-angle-right"></i></a>
                             <ul class="is-hidden">
                                 <li class="go-back"><a href="#0">Back</a></li>
                                 <li><a href="#">Sub Nav 1</a></li>
@@ -192,10 +210,12 @@
                 </li>
                 <li class="has-children">
                     <a href="#">Main 3</a>
+                    <a class="submenu-trigger " href="#"><i class="fa fa-angle-right"></i></a>
                     <ul class="is-hidden">
                         <li class="go-back"><a href="#0">Back</a></li>
                         <li class="has-children">
                             <a href="#0">Sub Nav 1</a>
+                            <a class="submenu-trigger " href="#"><i class="fa fa-angle-right"></i></a>
                             <ul class="is-hidden">
                                 <li class="go-back"><a href="#0">Back</a></li>
                                 <li><a href="#">Sub Nav 2</a></li>
@@ -205,6 +225,7 @@
                         </li>
                         <li class="has-children">
                             <a href="#0">Sub Nav 2</a>
+                            <a class="submenu-trigger " href="#"><i class="fa fa-angle-right"></i></a>
                             <ul class="is-hidden">
                                 <li class="go-back"><a href="#0">Back</a></li>
                                 <li><a href="#">Sub Nav 1</a></li>
@@ -222,6 +243,7 @@
             </ul>
         </li>
         <li class="has-children">
+            <a class="submenu-trigger visible-xs visible-sm" href="#"><i class="fa fa-angle-right"></i></a>
             <a href="#">Events</a>
             <ul class="cd-secondary-nav is-hidden">
                 <li class="go-back"><a href="#0">Main Menu</a></li>
@@ -241,10 +263,12 @@
                 </li>
                 <li class="has-children">
                     <a href="#">Main 1</a>
+                    <a class="submenu-trigger " href="#"><i class="fa fa-angle-right"></i></a>
                     <ul class="is-hidden">
                         <li class="go-back"><a href="#0">Back</a></li>
                         <li class="has-children">
                             <a href="#0">Sub Nav 1</a>
+                            <a class="submenu-trigger " href="#"><i class="fa fa-angle-right"></i></a>
                             <ul class="is-hidden">
                                 <li class="go-back"><a href="#0">Back</a></li>
                                 <li><a href="#">Sub Nav 2</a></li>
@@ -254,6 +278,7 @@
                         </li>
                         <li class="has-children">
                             <a href="#0">Sub Nav 2</a>
+                            <a class="submenu-trigger " href="#"><i class="fa fa-angle-right"></i></a>
                             <ul class="is-hidden">
                                 <li class="go-back"><a href="#0">Back</a></li>
                                 <li><a href="#">Sub Nav 2</a></li>
@@ -271,6 +296,7 @@
             </ul>
         </li>
         <li class="has-children">
+            <a class="submenu-trigger visible-xs visible-sm" href="#"><i class="fa fa-angle-right"></i></a>
             <a href="#">Publications & Standards</a>
             <ul class="cd-secondary-nav is-hidden">
                 <li class="go-back"><a href="#0">Main Menu</a></li>
@@ -290,10 +316,12 @@
                 </li>
                 <li class="has-children">
                     <a href="#">Main 1</a>
+                    <a class="submenu-trigger" href="#"><i class="fa fa-angle-right"></i></a>
                     <ul class="is-hidden">
                         <li class="go-back"><a href="#0">Back</a></li>
                         <li class="has-children">
                             <a href="#0">Sub Nav 1</a>
+                            <a class="submenu-trigger " href="#"><i class="fa fa-angle-right"></i></a>
                             <ul class="is-hidden">
                                 <li class="go-back"><a href="#0">Back</a></li>
                                 <li><a href="#">Sub Nav 2</a></li>
@@ -303,6 +331,7 @@
                         </li>
                         <li class="has-children">
                             <a href="#0">Sub Nav 2</a>
+                            <a class="submenu-trigger " href="#"><i class="fa fa-angle-right"></i></a>
                             <ul class="is-hidden">
                                 <li class="go-back"><a href="#0">Back</a></li>
                                 <li><a href="#">Sub Nav 4</a></li>
@@ -328,7 +357,6 @@
     <!-- primary-nav -->
 </nav>
 <!--End of Navigation Section -->
-
 </header>
 
         <div class="cd-main-content">

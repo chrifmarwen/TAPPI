@@ -76,10 +76,6 @@ jQuery(document).ready(function ($) {
         event.preventDefault();
     });
 
-    if(screen.width > 992) {
-        $(".submenu-trigger.visible-xs.visible-sm").remove();
-    }
-
     //open submenu
     $('.has-children').children('a').on('click', function (event) {
         if (!checkWindowWidth()) event.preventDefault();
