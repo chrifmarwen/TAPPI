@@ -80,7 +80,7 @@ jQuery(document).ready(function ($) {
     $('.has-children').children('a').on('click', function (event) {
         if (!checkWindowWidth()) event.preventDefault();
         var selected = $(this);
-        if(!selected.hasClass('submenu-trigger') && screen.width < MqL) {
+        if(!selected.hasClass('submenu-trigger') && $('.cd-main-header').width() < MqL) {
             return;
         }
         if (selected.next('ul').hasClass('is-hidden')) {
