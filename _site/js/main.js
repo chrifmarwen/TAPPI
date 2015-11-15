@@ -80,9 +80,20 @@ jQuery(document).ready(function ($) {
     $('.has-children').children('a').on('click', function (event) {
         if (!checkWindowWidth()) event.preventDefault();
         var selected = $(this);
+        if(!selected.hasClass('submenu-trigger') && screen.width < MqL) {
+            return;
+        }
         if (selected.next('ul').hasClass('is-hidden')) {
             //desktop version only
             selected.addClass('selected').next('ul').removeClass('is-hidden').end().parent('.has-children').parent('ul').addClass('moves-out');
+            selected.parent('.has-children').siblings('.has-children').children('ul').addClass('is-hidden').end().children('a').removeClass('selected');
+            if(selected.hasClass('submenu-trigger'))
+                selected.addClass('hidden');
+            selected.parent('.has-children').siblings('.has-children').children('a.submenu-trigger').addClass('hidden');
+            $('.cd-overlay').addClass('is-visible');
+        } else if(selected.hasClass('submenu-trigger') && selected.next().next('ul').hasClass('is-hidden')) {
+            //desktop version only
+            selected.addClass('selected').next().next('ul').removeClass('is-hidden').end().parent('.has-children').parent('ul').addClass('moves-out');
             selected.parent('.has-children').siblings('.has-children').children('ul').addClass('is-hidden').end().children('a').removeClass('selected');
             if(selected.hasClass('submenu-trigger'))
                 selected.addClass('hidden');

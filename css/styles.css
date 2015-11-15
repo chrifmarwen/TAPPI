@@ -9410,20 +9410,23 @@ Main components
     right: -10px !important;
     top: 0  !important;
     font-size: 1.5em !important;
-    margin-top: 0 !important; }
+    margin-top: 0 !important;
+    z-index: 9999; }
   .cd-nav-trigger3 {
+    background-image: url("../img/hamburger.png");
+    background-size: 100% 100%;
     display: block;
     background-color: #01673f;
     color: white;
-    padding: 0.2em; }
+    width: 46px;
+    height: 46px;
+    padding: 10px 0 2px 0;
+    text-align: center;
+    font-size: 20px; }
     .cd-nav-trigger3 span {
       color: white;
       background-color: #01673f;
-      width: 1em;
-      height: 1em;
-      text-align: center;
-      font-size: 1.5em;
-      margin: 0.2em; } }
+      font-size: 25px; } }
 
 @media (min-width: 992px) {
   .cd-nav-trigger3 {
